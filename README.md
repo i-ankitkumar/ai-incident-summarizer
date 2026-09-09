@@ -1,5 +1,9 @@
 # incidentlens — AI Observability Incident Summarizer
 
+[![CI](https://github.com/i-ankitkumar/ai-incident-summarizer/actions/workflows/ci.yml/badge.svg)](https://github.com/i-ankitkumar/ai-incident-summarizer/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/i-ankitkumar/ai-incident-summarizer/blob/main/LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+
 A small tool that turns a pile of raw alerts and log lines from a cascading
 failure into a single, structured incident report: what broke first, how far
 it spread, which service was noisiest, and (optionally) a short AI-written
