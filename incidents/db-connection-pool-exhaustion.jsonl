@@ -1,0 +1,11 @@
+{"timestamp": "2026-08-20T14:02:00Z", "service": "orders-db", "severity": "WARNING", "message": "connection pool utilization at 88%"}
+{"timestamp": "2026-08-20T14:02:40Z", "service": "orders-db", "severity": "ERROR", "message": "connection pool exhausted: 0 available connections"}
+{"timestamp": "2026-08-20T14:03:05Z", "service": "orders-service", "severity": "ERROR", "message": "failed to acquire DB connection after 3 retries"}
+{"timestamp": "2026-08-20T14:03:20Z", "service": "checkout-service", "severity": "ERROR", "message": "orders-service returned 503"}
+{"timestamp": "2026-08-20T14:03:55Z", "service": "auth-service", "severity": "ERROR", "message": "session lookup failed: orders-db timeout"}
+{"timestamp": "2026-08-20T14:04:10Z", "service": "orders-db", "severity": "CRITICAL", "message": "connection pool exhausted for 90s, queueing 240 requests"}
+{"timestamp": "2026-08-20T14:05:00Z", "service": "notification-service", "severity": "ERROR", "message": "order-confirmation lookups failing: orders-db unavailable"}
+{"timestamp": "2026-08-20T14:08:30Z", "service": "orders-db", "severity": "WARNING", "message": "long-running query detected: SELECT * FROM order_items (42s)"}
+{"timestamp": "2026-08-20T14:12:00Z", "service": "orders-db", "severity": "INFO", "message": "long-running query terminated by DBA"}
+{"timestamp": "2026-08-20T14:13:15Z", "service": "orders-db", "severity": "INFO", "message": "connection pool utilization back to 20%"}
+{"timestamp": "2026-08-20T14:14:00Z", "service": "orders-service", "severity": "INFO", "message": "recovered, 503 rate back to 0%"}
