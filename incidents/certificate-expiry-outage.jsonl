@@ -1,0 +1,10 @@
+{"timestamp": "2026-08-27T03:00:05Z", "service": "ingress-gateway", "severity": "ERROR", "message": "TLS handshake failed: certificate expired 2026-08-27T03:00:00Z"}
+{"timestamp": "2026-08-27T03:00:12Z", "service": "ingress-gateway", "severity": "ERROR", "message": "TLS handshake failed: certificate expired 2026-08-27T03:00:00Z"}
+{"timestamp": "2026-08-27T03:00:40Z", "service": "auth-service", "severity": "ERROR", "message": "upstream ingress-gateway returned 526 for login requests"}
+{"timestamp": "2026-08-27T03:01:15Z", "service": "mobile-bff", "severity": "ERROR", "message": "all upstream calls via ingress-gateway failing with TLS errors"}
+{"timestamp": "2026-08-27T03:01:50Z", "service": "ingress-gateway", "severity": "CRITICAL", "message": "100% of inbound HTTPS requests rejected: certificate expired"}
+{"timestamp": "2026-08-27T03:02:30Z", "service": "web-frontend", "severity": "ERROR", "message": "static asset fetch failing: TLS error from CDN edge"}
+{"timestamp": "2026-08-27T03:05:00Z", "service": "oncall-bot", "severity": "WARNING", "message": "PagerDuty escalation triggered: ingress-gateway availability below 1%"}
+{"timestamp": "2026-08-27T03:11:20Z", "service": "ingress-gateway", "severity": "INFO", "message": "new certificate installed and reloaded"}
+{"timestamp": "2026-08-27T03:11:45Z", "service": "ingress-gateway", "severity": "INFO", "message": "TLS handshake success rate back to 100%"}
+{"timestamp": "2026-08-27T03:12:30Z", "service": "auth-service", "severity": "INFO", "message": "login success rate recovered to 99.8%"}
