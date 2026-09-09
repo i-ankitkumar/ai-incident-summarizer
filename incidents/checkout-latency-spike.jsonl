@@ -1,0 +1,11 @@
+{"timestamp": "2026-08-14T09:14:02Z", "service": "checkout-service", "severity": "WARNING", "message": "p99 latency rising: 850ms (baseline 120ms)"}
+{"timestamp": "2026-08-14T09:14:45Z", "service": "checkout-service", "severity": "WARNING", "message": "database connection pool at 82% utilization"}
+{"timestamp": "2026-08-14T09:15:10Z", "service": "checkout-service", "severity": "ERROR", "message": "timeout calling inventory-service after 5000ms"}
+{"timestamp": "2026-08-14T09:15:22Z", "service": "payment-service", "severity": "ERROR", "message": "upstream checkout-service returned 504 for 12% of requests"}
+{"timestamp": "2026-08-14T09:15:50Z", "service": "notification-service", "severity": "ERROR", "message": "order-confirmation queue backing up: 340 messages pending"}
+{"timestamp": "2026-08-14T09:16:05Z", "service": "checkout-service", "severity": "CRITICAL", "message": "checkout success rate dropped to 41% over last 60s"}
+{"timestamp": "2026-08-14T09:17:30Z", "service": "payment-service", "severity": "ERROR", "message": "circuit breaker OPEN for checkout-service"}
+{"timestamp": "2026-08-14T09:19:00Z", "service": "inventory-service", "severity": "WARNING", "message": "elevated response times: p95 2100ms"}
+{"timestamp": "2026-08-14T09:24:10Z", "service": "checkout-service", "severity": "INFO", "message": "database connection pool utilization back to 35%"}
+{"timestamp": "2026-08-14T09:25:40Z", "service": "checkout-service", "severity": "INFO", "message": "checkout success rate recovered to 99.2%"}
+{"timestamp": "2026-08-14T09:26:00Z", "service": "payment-service", "severity": "INFO", "message": "circuit breaker CLOSED for checkout-service"}
