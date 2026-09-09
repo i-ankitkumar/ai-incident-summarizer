@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incidentlens"
+version = "0.1.0"
+description = "Reconstruct and summarize incidents from raw observability events, with an optional AI-written narrative."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ankit Kumar" }]
+dependencies = [
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+ai = ["anthropic>=0.34.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+incidentlens = "incidentlens.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["incidentlens*"]
